@@ -5,10 +5,16 @@ h2 {
           animation: horror 5s infinite;
 }
 
-p {
+h1 {
   font-family: 'Denk One', sans-serif;
   -webkit-animation: horror 5s infinite;
           animation: horror 5s infinite;
+}
+
+p {
+  font-family: 'Denk One', sans-serif;
+  -webkit-animation: horror 1s forwards;
+          animation: horror 1s forwards;
 }
 
 li {
