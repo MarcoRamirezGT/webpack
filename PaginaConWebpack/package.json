@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "start": "babel src -d lib"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.8",
+    "@babel/plugin-transform-arrow-functions": "^7.13.0",
+    "@babel/preset-env": "^7.13.9",
     "css-loader": "^5.1.1",
     "sass-loader": "^11.0.1",
     "style-loader": "^2.0.0",
@@ -17,6 +22,11 @@
     "webpack-cli": "^4.5.0"
   },
   "dependencies": {
-    "sass": "^1.32.8"
+    "@babel/polyfill": "^7.12.1",
+    "corejs": "^1.0.0",
+    "sass": "^1.32.8",
+    "animate.css":"4.1.1",
+    "bootstrap": "4.6.0"
   }
+  
 }
